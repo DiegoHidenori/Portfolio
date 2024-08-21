@@ -12,14 +12,16 @@ code {
     monospace;
 }
 
+/* Starting here is my code */
 * {
   border: 1px solid red;
+  /* border-radius: 15px; */
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: center;
-}
+} */
 
 .profileImage {
   max-width: 300px;
@@ -27,4 +29,10 @@ nav {
 
 #profile {
   display: flex;
+}
+
+body {
+  margin: 5px;
+  border-radius: 15px;
+  /* border: 2px solid brown; */
 }
