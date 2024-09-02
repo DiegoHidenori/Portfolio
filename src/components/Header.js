@@ -1,16 +1,22 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <nav>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">My Life</a>
-                <a href="#">Goals</a>
+        <>
+            <nav className={styles.navbar}>
+                <div className={styles.linkContainer}>
+                    <Link to="/" className={styles.navLinks}><b>Home</b></Link>
+                    <Link to="/projects" className={styles.navLinks}><b>Projects</b></Link>
+                    <Link to="/" className={styles.navLinks}><b>My Life</b></Link>
+                    <Link to="/" className={styles.navLinks}><b>Goals</b></Link>
+                </div>
+            </nav>
+            <div className={styles.testing}>
+                <h1>Testing</h1>
             </div>
-        </nav>
+        </>
     );
 }
 

@@ -1,0 +1,9 @@
+.profileImage {
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 15px;
+  }
+  
+#profile {
+    display: flex;
+}
