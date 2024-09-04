@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Resume from './pages/Resume';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Projects from './pages/Projects';
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="resume" element={<Resume />} />
       </Routes>
     </div>
   );

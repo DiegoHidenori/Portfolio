@@ -7,9 +7,9 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 
   /* background: rgba(240,240,240,1) 50%; */
-  background: url(../public/img/image0.jpeg);
+  background: url(../public/img/image0.jpeg) no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
+  height: 100%;
 }
 
 code {

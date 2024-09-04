@@ -33,6 +33,6 @@
 .App {
   margin: 5px;
   border-radius: 15px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   min-height: 100vh;
 }
