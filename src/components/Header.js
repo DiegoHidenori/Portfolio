@@ -31,16 +31,6 @@ const Header = () => {
                             <ScrollToSection sectionId="About" />
                         </>
                     )}
-                    {/* <a href='/academics' className='navbar-links'>Academics</a> */}
-                    <motion.a 
-                        href='/academics' 
-                        className='navbar-links'
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.95}}
-                    >
-                        Academics
-                    </motion.a>
-                    {/* <a href="/contact" className='navbar-links'>Contact</a> */}
                     <motion.a 
                         // href='/contact' 
                         className='navbar-links'

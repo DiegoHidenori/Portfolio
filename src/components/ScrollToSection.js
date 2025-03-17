@@ -10,8 +10,8 @@ const ScrollToSection = ({ sectionId }) => {
             className='navbar-links'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            initial={{ opacity: 0 }} // Start from 100px below with 0 opacity
-            whileInView={{ opacity: 1 }} // Move to original position with full opacity
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             onClick={scrollTo}
         >

@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+/* body * {
+    border: 1px solid red;
+} */
+
 /* ========== FIRST SECTION ========== */
 
 .home-container-first {
@@ -12,16 +16,16 @@
     padding: 15px;
     justify-content: space-between;
     /* border: 2px solid red; */
-    min-height: 140vh;
+    min-height: 180vh;
     background-image: url('../assets/images/Tree.png');
     background-repeat: no-repeat;
-    background-position: 95% 20%;
+    background-position: 95% 55%;
     background-size: 35vw;
 }
 
 .home-name {
     width: 100%;
-    font-size: 11vw;     /* this will make the text naturally fill the width */
+    font-size: 9vw;     /* this will make the text naturally fill the width */
     /* border: 2px solid purple; */
     text-align: center;
 }
@@ -36,8 +40,6 @@
 /* ========== PROJECTS SECTION ========== */
 
 .home-container-second {
-    /* background-color: #FCEED1; */
-    /* border: 2px solid blue; */
     min-height: 60vh;
     height: fit-content;
     display: flex;
@@ -85,7 +87,7 @@
 
 .project-item {
     width: 200px;
-    height: 250px;
+    height: 325px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -98,6 +100,25 @@ img {
     height: 170px;
     border-radius: 15px;
     object-fit: cover;
+}
+
+.project-image {
+    pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: nsone;
+}
+
+.projects-btn {
+    display: flex;
+    justify-self: center;
+    padding: 15px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    /* transition: transform 0.2s ease; */
 }
 
 /* ========== EDUCATION SECTION ========== */
